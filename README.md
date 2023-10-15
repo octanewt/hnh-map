@@ -1,3 +1,17 @@
+From directory with Dockerfile, build image and store it locally:
+
+`docker build -t "hnh-map:latest"`
+
+Then you can run it in background with:
+
+`docker run -d -p 8080:8080 hnh-map`
+
+This command will create container and start it. Go to `localhost:8080` to view.
+
+Original README below.
+
+---
+
 # hnh-map
 
 Automapper server for HnH, (mostly) compatible with https://github.com/APXEOLOG/hnh-auto-mapper-server
